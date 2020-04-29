@@ -1,0 +1,21 @@
+.bg-light {
+    background-color: palevioletred!important;
+}
+body {background-color: powderblue;}
+
+h1 {
+  color: purple;
+  font-size: 35px;
+}
+h2 {
+   color: plum; 
+}
+h3 {
+    color: palevioletred;
+}
+p {
+    color: violet;
+}
+img {
+    height: 765px;
+}
