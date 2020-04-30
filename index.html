@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tsutsuma.edu</title>
-<!-- Bootstrapを有効にするためにやること①　CSS貼り付け CSSへのリンクをここで飛ばす -->-->
+<!-- Bootstrapを有効にするためにやること①　CSS貼り付け CSSへのリンクをここで飛ばす -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    
 <!-- my own CSS ※bootstrapより下に書くこと！-->
 <link rel="stylesheet" href="style.css">
@@ -13,6 +13,7 @@
 <!-- ここがページの内容 -->
 <body>
     <!-- bootstrap/conponents/navbarを貼り付け -->
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">  
             <!-- Navberのタイトル表示 -->
@@ -25,29 +26,28 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
             <!-- Navber１個目 -->
-                <a class="nav-link" href="#">home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
             <!-- ２個目 -->
-                <a class="nav-link" href="#">about us</a>
+                <a class="nav-link" href="page3.html">ABOUT US</a>
                 </li>
             <!-- 押すと選択できるやつ -->
                 <li class="nav-item dropdown">
                 <!-- これタイトル -->
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    contact　
+                    COURSE
                 </a>
                 <!-- メニュー内容　選択肢 -->
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="page2.html">Data Analyst</a>
+                    <a class="dropdown-item" href="page2.html">Predictive Analytics for Business</a>
+                    <a class="dropdown-item" href="page2.html">Marketing Analyst</a>
+                    <a class="dropdown-item" href="page2.html">Data Streaming</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="page2.html">more</a>
                 </div>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
+               
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
